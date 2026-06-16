@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "app/**"
 
 jobs:
-  deploy:
+  deploy-web:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -24,4 +26,4 @@ jobs:
 
       - name: Deploy to S3 Bucket
         run: |
-          aws s3 sync app/ s3://${{ secrets.S3_BUCKET_WEB }} --delete
+          aws s3 sync app/ s3://${{ secrets.S3_BUCKET_WEB }} --exclude "Dockerfile" --exclude ".dockerignore" --delete
