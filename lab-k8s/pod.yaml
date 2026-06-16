@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mundial-web-pod
+  namespace: mundial
+  labels:
+    app: mundial-web
+spec:
+  containers:
+    - name: contenedor-mundial
+      image: mundial-web:einar
+      imagePullPolicy: Never
+      ports:
+        - containerPort: 80
