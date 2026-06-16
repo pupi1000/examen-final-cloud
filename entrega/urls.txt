@@ -1,4 +1,4 @@
-Repo GitHub:
+Repo GitHub: https://github.com/pupi1000/examen-final-cloud
 S3 web (Lab 2): http://mundial-web-guillen.s3-website.us-east-2.amazonaws.com
-API Gateway base (Lab 3):
-Kubernetes puerto 30080 (Lab 4):
+API Gateway base (Lab 3): https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod
+Kubernetes puerto 30080 (Lab 4): http://localhost:30081
