@@ -1,10 +1,17 @@
 # Pegar aquí la salida de los 3 curl del Lab 3
 
 ## GET /poleras
+arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/poleras
 
 
 ## GET /partidos
+arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/partidos
 
 
 ## GET /partidos/partido-001
+arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/partidosid
 
+
+curl https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/poleras
+curl https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/partidos
+curl https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/partidos/partido-001
