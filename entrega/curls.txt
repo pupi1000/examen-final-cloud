@@ -2,14 +2,17 @@
 
 ## GET /poleras
 arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/poleras
+https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/poleras
 
 
 ## GET /partidos
 arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/partidos
+https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/partidos
 
 
 ## GET /partidos/partido-001
 arn:aws:execute-api:us-east-1:806100284954:xjc8m8dw32/*/GET/partidosid
+https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/partidos/partido-001
 
 
 curl https://xjc8m8dw32.execute-api.us-east-1.amazonaws.com/prod/poleras
