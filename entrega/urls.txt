@@ -1,4 +1,4 @@
 Repo GitHub:
-S3 web (Lab 2):
+S3 web (Lab 2): http://mundial-web-guillen.s3-website.us-east-2.amazonaws.com
 API Gateway base (Lab 3):
 Kubernetes puerto 30080 (Lab 4):
