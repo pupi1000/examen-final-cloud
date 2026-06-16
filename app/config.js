@@ -1,6 +1,6 @@
 // ── Lab 3: completa después de crear API Gateway ──
 // Deja vacío para modo local (datos de ejemplo en la web).
-// Tras configurar, haz push para que el pipeline del Lab 2 actualice S3.
+// Tras configurar, haz push para que el pipeline del Lab 2 actualice Ss3.
 
 const API_PARTIDOS = "";
 const API_PARTIDO_ID = "";
